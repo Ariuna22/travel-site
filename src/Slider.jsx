@@ -32,8 +32,8 @@ function Slider(){
     <div className="person">
       <img src = {image} alt="person"/>
       <div className="btn">
-      <button onClick={previousPerson}>❮</button>
-      <button onClick={nextPerson}>❯</button>
+      <button className="btn-slider" onClick={previousPerson}>❮</button>
+      <button className="btn-slider" onClick={nextPerson}>❯</button>
 
     </div>
     </div>
